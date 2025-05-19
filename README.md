@@ -32,6 +32,9 @@ by [Google](https://googlechromelabs.github.io/chrome-for-testing/).
 You can control the channel of the release by setting the `GOOGLE_CHROME_CHANNEL`
 config variable to `Stable`, `Beta`, `Dev`, or `Canary`, and then deploy/build the app.
 
+You can control the version of the release by setting the
+`GOOGLE_CHROME_VERSION` config variable.
+
 ## Migrating from Separate Buildpacks
 
 ### Remove Existing Installations
